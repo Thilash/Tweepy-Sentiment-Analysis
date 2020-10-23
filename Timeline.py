@@ -22,7 +22,7 @@ print(me.screen_name)
 #    print("\n")
 
 
-user = api.get_user("tinybbycutiegrl")
+user = api.get_user("insertuserhere")
 user_timeline = user.timeline()
 count = 0
 for x in user_timeline:
